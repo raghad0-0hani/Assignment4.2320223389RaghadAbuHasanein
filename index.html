@@ -4,72 +4,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raghad CV</title>
-    <link rel="stylesheet" href="style.css">
 
+    <title>Raghad CV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="page">
 
-        <div class="header">
-            <h1>Raghad Hani Abu Hasanein</h1>
-            <p>Gaza, Palestine | raghadhani.r.r@gmail.com | 0592747164</p>
-        </div>
+        <!-- HEADER -->
 
-        <div class="section">
-            <h2>Professional Summary</h2>
-            <p>
-                Highly motivated Computer Engineering student specializing in Intelligent Systems,
-                with strong foundations in programming, embedded systems, signal analysis, and operating systems.
-                Experienced in practical projects involving MATLAB simulations, Python programming, and
-                hardware/software integration.
-                Skilled in problem-solving, project management, and teamwork.
-            </p>
-        </div>
+        <header class="header">
 
-        <div class="section">
-            <h2>Education</h2>
-            <div class="education">
-                <p><strong>Bachelor of Computer Engineering and Intelligent Systems</strong></p>
-                <p>Al-Aqsa University – Gaza, Palestine</p>
-                <p>2022 – 2026</p>
+            <div>
+                <h1 class="header-name">
+                    Raghad <em>Abu Hasanein</em>
+                </h1>
             </div>
-        </div>
 
-        <div class="section">
-            <h2>Key Skills</h2>
-            <div class="skills">
+            <div class="header-meta">
+                GAZA, PALESTINE <br>
+                RAGHADHANI.R.R@GMAIL.COM <br>
+                +970 59 274 7164
+            </div>
 
-                <div>
-                    <h3>Technical Skills</h3>
-                    <ul>
-                        <li><strong>Programming:</strong> Python, Java</li>
-                        <li><strong>Signal Analysis:</strong> MATLAB </li>
-                        <li><strong>Operating Systems:</strong> Linux / Ubuntu</li>
-                    </ul>
+        </header>
+
+        <!-- MAIN CONTENT -->
+
+        <main class="body-grid">
+
+            <!-- PROFILE -->
+
+            <div class="section">
+
+                <div class="section-label">
+                    Profile
                 </div>
 
-                <div>
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Teamwork & Collaboration</li>
-                        <li>Time Management</li>
-                        <li>Adaptability</li>
-                    </ul>
+                <div class="section-content">
+
+                    <p class="summary-text">
+                        Highly motivated Computer Engineering student specializing in Intelligent Systems,
+                        with strong foundations in programming, embedded systems,
+                        signal analysis, and operating systems.
+
+                        Experienced in practical projects involving MATLAB simulations,
+                        Python programming, and hardware/software integration.
+
+                        Passionate about solving real-world engineering problems through
+                        modern technologies and clean system design.
+                    </p>
+
                 </div>
 
             </div>
-        </div>
 
-        <div class="section">
-            <h2>Languages</h2>
-            <ul>
-                <li><strong>Arabic:</strong> Native</li>
-                <li><strong>English:</strong> Upper-Intermediate (B1-B2)</li>
-            </ul>
-        </div>
+            <!-- EDUCATION -->
+
+            <div class="section">
+
+                <div class="section-label">
+                    Education
+                </div>
+
+                <div class="section-content">
+
+                    <div class="edu-degree">
+                        Bachelor of Computer Engineering & Intelligent Systems
+                    </div>
+
+                    <div class="edu-school">
+                        Al-Aqsa University — Gaza, Palestine
+                    </div>
+
+                    <div class="edu-year">
+                        2022 — 2026
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- SKILLS -->
+
+            <div class="section">
+
+                <div class="section-label">
+                    Skills
+                </div>
+
+                <div class="section-content">
+
+                    <div class="skills-grid">
+
+                        <!-- TECHNICAL -->
+
+                        <div class="skill-group">
+
+                            <h3>Technical Skills</h3>
+
+                            <ul>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>MATLAB</li>
+                                <li>Linux / Ubuntu</li>
+                                <li>Signal Analysis</li>
+                                <li>Embedded Systems</li>
+                            </ul>
+
+                        </div>
+
+                        <!-- SOFT -->
+
+                        <div class="skill-group">
+
+                            <h3>Soft Skills</h3>
+
+                            <ul>
+                                <li>Teamwork</li>
+                                <li>Communication</li>
+                                <li>Problem Solving</li>
+                                <li>Adaptability</li>
+                                <li>Time Management</li>
+                                <li>Project Organization</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- LANGUAGES -->
+
+            <div class="section">
+
+                <div class="section-label">
+                    Languages
+                </div>
+
+                <div class="section-content">
+
+                    <ul class="lang-list">
+
+                        <li>
+
+                            <strong>Arabic</strong>
+
+                            <div class="lang-bar">
+                                <div class="lang-bar-fill" style="width:100%"></div>
+                            </div>
+
+                            <span class="lang-level">
+                                NATIVE
+                            </span>
+
+                        </li>
+
+                        <li>
+
+                            <strong>English</strong>
+
+                            <div class="lang-bar">
+                                <div class="lang-bar-fill" style="width:82%"></div>
+                            </div>
+
+                            <span class="lang-level">
+                                B1–B2
+                            </span>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- FOOTER -->
+
+            <footer class="footer">
+
+                <div class="footer-name">
+                    RAGHAD CV
+                </div>
+
+                <div class="footer-year">
+                    2026
+                </div>
+
+            </footer>
+
+        </main>
 
     </div>
 
